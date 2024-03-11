@@ -1,3 +1,5 @@
+# Create To-do List
+
 Redux TODO List App This project is a simple TODO list application built with
 Redux, designed to help you manage your tasks efficiently. It incorporates
 various features to enhance your task management experience.
@@ -24,9 +26,27 @@ uncompleted tasks. 5. Display Counter of Completed and Uncompleted Tasks The
 application provides a visual representation of the number of completed and
 uncompleted tasks, offering a quick overview of your progress.
 
+## Available Scripts
+
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode. Open http://localhost:3000 to view it in
-your browser.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best
+performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about
+[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
+more information.
