@@ -1,18 +1,18 @@
 import { useSelector, useDispatch } from 'react-redux'
+import { Box } from '@mui/material'
 import { ButtonFilter } from 'components/Button/button'
 import { statusFilters } from '../../redux/constants'
 import { getStatusFilter } from '../../redux/selectors'
 import { setStatusFilter } from '../../redux/actions'
-import { Box } from '@mui/material'
 
 export const StatusFilter = () => {
   const dispatch = useDispatch()
   const filter = useSelector(getStatusFilter)
 
-  const handleFilterChange = (filter) => dispatch(setStatusFilter(filter))
+  const handleFilterChange = (filterBtn) => dispatch(setStatusFilter(filterBtn))
 
   return (
-    <Box display="flex" gap={1}>
+    <Box sx={{ 'display': 'flex', 'gap': 1 }}>
         <ButtonFilter
           selected={filter === statusFilters.all}
           onClick={() => handleFilterChange(statusFilters.all)}
@@ -20,10 +20,10 @@ export const StatusFilter = () => {
           All
         </ButtonFilter>
         <ButtonFilter
-          selected={filter === statusFilters.active}
-          onClick={() => handleFilterChange(statusFilters.active)}
+          selected={filter === statusFilters.current}
+          onClick={() => handleFilterChange(statusFilters.current)}
         >
-          Active
+          Current
         </ButtonFilter>
         <ButtonFilter
           selected={filter === statusFilters.completed}

@@ -24,17 +24,19 @@ uncompleted tasks. 5. Display Counter of Completed and Uncompleted Tasks The
 application provides a visual representation of the number of completed and
 uncompleted tasks, offering a quick overview of your progress.
 
-6. Redux Storage The state management is handled using Redux, ensuring a robust
-   and scalable solution for managing the application's data flow.
+In the project directory, you can run:
 
-7. Linting We follow the linting guidelines provided by
-   wemake-frontend-styleguide to maintain a consistent and clean codebase.
+npm start Runs the app in the development mode. Open http://localhost:3000 to
+view it in your browser.
 
-8. Styling For styling, you can use any library or framework that suits your
-   preferences, but remember that UI matters. Ensure a visually appealing and
-   user-friendly interface to enhance the overall user experience.
+The page will reload when you make changes. You may also see any lint errors in
+the console.
 
-Getting Started Clone the repository: git clone
-https://github.com/your-username/redux-todo-list.git Install dependencies: npm
-install Run the application: npm start Feel free to explore and customize the
-application to meet your specific requirements. Happy task managing!
+npm run build Builds the app for production to the build folder. It correctly
+bundles React in production mode and optimizes the build for the best
+performance.
+
+The build is minified and the filenames include the hashes. Your app is ready to
+be deployed!
+
+See the section about deployment for more information.

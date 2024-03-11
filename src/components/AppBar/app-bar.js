@@ -1,13 +1,13 @@
+import { Box, Typography } from '@mui/material'
 import { StatusFilter } from 'components/StatusFilter/status-filter'
 import { TaskCounter } from 'components/TaskCounter/task-counter'
-import { Box, Typography } from '@mui/material'
 
 export const AppBar = () => {
   return (
-    <Box display="flex" justifyContent="space-between">
+    <Box sx={{ 'display': 'flex', 'justifyContent': 'space-between' }}>
       <Box>
         <Typography variant="h6">
-          ToDo
+          TODO
         </Typography>
         <TaskCounter />
       </Box>
