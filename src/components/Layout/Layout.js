@@ -1,5 +1,5 @@
-import { Box, Container } from "@mui/material";
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast'
+import { Box, Container } from '@mui/material'
 
 export const Layout = ({ children }) => {
   return (
@@ -12,7 +12,7 @@ export const Layout = ({ children }) => {
       <Toaster
         position="top-right"
         reverseOrder={false}
-      />
+        />
     </>
-  );
-};
+  )
+}

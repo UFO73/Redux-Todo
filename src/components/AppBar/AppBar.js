@@ -1,6 +1,6 @@
-import { StatusFilter } from "components/StatusFilter/StatusFilter";
-import { TaskCounter } from "components/TaskCounter/TaskCounter";
-import { Box, Typography } from "@mui/material";
+import { StatusFilter } from 'components/StatusFilter/StatusFilter'
+import { TaskCounter } from 'components/TaskCounter/TaskCounter'
+import { Box, Typography } from '@mui/material'
 
 export const AppBar = () => {
   return (
@@ -18,5 +18,5 @@ export const AppBar = () => {
         <StatusFilter />
       </Box>
     </Box>
-  );
-};
+  )
+}

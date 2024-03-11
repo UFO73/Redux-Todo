@@ -22,13 +22,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint:js": "eslint src/**/*.{js,jsx}"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "@wemake-services/javascript"
     ]
   },
   "browserslist": {
