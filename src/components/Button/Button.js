@@ -1,9 +1,7 @@
-import clsx from 'clsx'
-import css from './Button.module.css'
 import { Button } from '@mui/material'
 
 export const ButtonFilter = ({
-  selected = false,
+  // selected = false,
   type = 'button',
   children,
   ...otherProps
@@ -12,9 +10,6 @@ export const ButtonFilter = ({
 
     <Button
       variant="outlined"
-      className={clsx(css.btn, {
-        [css.isSelected]: selected,
-      })}
       type={type}
       {...otherProps}
     >

@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { ButtonFilter } from 'components/Button/Button'
+import { ButtonFilter } from 'components/Button/button'
 import { statusFilters } from '../../redux/constants'
 import { getStatusFilter } from '../../redux/selectors'
 import { setStatusFilter } from '../../redux/actions'
@@ -12,7 +12,7 @@ export const StatusFilter = () => {
   const handleFilterChange = (filter) => dispatch(setStatusFilter(filter))
 
   return (
-    <Box display="flex" sx={{ 'gap': 1 }}>
+    <Box display="flex" gap={1}>
         <ButtonFilter
           selected={filter === statusFilters.all}
           onClick={() => handleFilterChange(statusFilters.all)}

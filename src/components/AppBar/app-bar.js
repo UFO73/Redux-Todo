@@ -1,5 +1,5 @@
-import { StatusFilter } from 'components/StatusFilter/StatusFilter'
-import { TaskCounter } from 'components/TaskCounter/TaskCounter'
+import { StatusFilter } from 'components/StatusFilter/status-filter'
+import { TaskCounter } from 'components/TaskCounter/task-counter'
 import { Box, Typography } from '@mui/material'
 
 export const AppBar = () => {
