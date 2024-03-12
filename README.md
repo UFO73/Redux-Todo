@@ -1,8 +1,6 @@
 # Create To-do List
 
-Redux TODO List App This project is a simple TODO list application built with
-Redux, designed to help you manage your tasks efficiently. It incorporates
-various features to enhance your task management experience.
+TODO List App This project is a simple TODO list application built with Redux.
 
 Features
 
@@ -11,20 +9,17 @@ Features
    within the specified limit (N characters) before adding it to the list.
 
 2. Display List of Added Records The application displays a comprehensive list
-   of all the tasks you have added. Each task is presented with its current
-   status and can be interacted with using various functionalities.
+   of all the tasks you have added.
 
-3. Switching the Status of a Record Toggle the completion status of a task by
-   clicking on its name. This feature allows you to mark a task as completed or
-   revert it to an uncompleted state effortlessly.
-
-4. Filtering by Type You can filter your task list based on different types,
+3. Filtering by Type You can filter your task list based on different types,
    including:
 
 All: Display all tasks. Completed: Show only completed tasks. Current: Show only
-uncompleted tasks. 5. Display Counter of Completed and Uncompleted Tasks The
-application provides a visual representation of the number of completed and
-uncompleted tasks, offering a quick overview of your progress.
+uncompleted tasks.
+
+4. Display Counter of Completed and Uncompleted Tasks The application provides a
+   visual representation of the number of completed and uncompleted tasks,
+   offering a quick overview of your progress.
 
 ## Available Scripts
 
@@ -43,10 +38,3 @@ You may also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best
 performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.

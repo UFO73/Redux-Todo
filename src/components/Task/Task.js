@@ -17,6 +17,7 @@ export const Task = ({ task, number }) => {
   return (
     <Box sx={{
       'display': 'flex',
+      'width': '100%',
       'justifyContent': 'space-between',
       'alignItems': 'center',
       'gap': 2,

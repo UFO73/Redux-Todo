@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { Task } from 'components/Task/task'
 import { getTasks, getStatusFilter } from '../../redux/selectors'
 import { statusFilters } from '../../redux/constants'
-import { List } from '@mui/material'
+import { List, ListItem } from '@mui/material'
 
 const getVisibleTasks = (tasks, statusFilter) => {
   switch (statusFilter) {
@@ -33,9 +33,13 @@ export const TaskList = () => {
   return (
     <List >
       {visibleTasks.map((task, idx) => (
-        <li key={task.id}>
+        <ListItem key={task.id} sx={{
+          '& + &': {
+            'borderTop': '1px solid #2f2f37',
+          },
+        }}>
           <Task task={task} number={idx + 1} />
-        </li>
+        </ListItem>
       ))}
     </List>
   )
